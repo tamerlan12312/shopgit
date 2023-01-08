@@ -1,0 +1,131 @@
+.container {
+    #h6 {
+        position: absolute;
+        top: 1790px;
+        color: #000;
+        font-family: cursive;
+        // font-weight: bold;
+       left: 150px;
+    }
+    .h6phone{
+        position: absolute;
+        top: 1810px;
+        color: #000;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 25px;
+       left: 148px;
+    }
+    #shopA{
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 20px;
+        background-color: #000;
+        position: absolute;
+        font-weight: bold;
+        left: 145px;
+        top: 1890px;
+    }
+    #h62{
+        position: absolute;
+        top: 1790px;
+        color: #fff;
+        font-family: cursive;
+        // font-weight: bold;
+       left: 575px;
+    }
+    .h6phone2{
+        position: absolute;
+        top: 1820px;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 25px;
+       left: 520px;
+    }
+    #shopA2{
+        color: #000;
+        text-decoration: none;
+        padding: 5px 20px;
+        background-color: #FFC600;
+        position: absolute;
+        font-weight: bold;
+        left: 519px;
+        top: 1890px;
+    }
+    #h63{
+        position: absolute;
+        top: 1790px;
+        color: #fff;
+        font-family: cursive;
+        // font-weight: bold;
+       left: 885px;
+       font-size: 18px
+    }
+    .h6phone3{
+        position: absolute;
+        top: 1820px;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 25px;
+       left: 885px;
+    }
+    #shopA3{
+        color: #000;
+        text-decoration: none;
+        padding: 5px 20px;
+        background-color: #fff;
+        position: absolute;
+        font-weight: bold;
+        left: 885px;
+        top: 1890px;
+    }
+    
+}
+@media (max-width:1200px) {
+    .container{
+        #h6 {
+            margin-top: 1580px;
+            margin-left: -100px;
+            font-size: 15px;
+        }
+        .h6phone{
+            margin-top: 1590px;
+            margin-left: -100px;
+            font-size: 25px;
+        }
+        #shopA{
+            margin-top: 1590px;
+            margin-left: -100px;
+        }
+      #shopA2{
+        margin-top: 1820px;
+        margin-left: -480px;
+      }
+      #h62 {
+        margin-top: 1790px;
+        margin-left: -530px;
+        font-size: 15px;
+    }
+    .h6phone2{
+        margin-top: 1800px;
+        margin-left: -480px;
+        font-size: 25px;
+    }
+    #shopA3{
+        margin-top: 2030px;
+        margin-left: -850px;
+      }
+      #h63 {
+        margin-top: 2045px;
+        margin-left: -850px;
+        font-size: 20px;
+    }
+    .h6phone3{
+        margin-top: 2050px;
+        margin-left: -850px;
+        font-size: 25px;
+    }
+    }
+}

@@ -1,0 +1,40 @@
+.section2 {
+    .h2{
+        font-weight: 700;
+    }
+}
+.container {
+    .row{
+        .card{
+            border: none;
+            border: 1px solid rgb(243, 241, 241);
+        }
+    }
+    
+        .h1Card{
+                font-family: monospace;
+             font-size: 20px;
+             &::before{
+                content: "";
+                position: absolute;
+                top: 255px;
+                width: 0px;
+                height: 2px;
+                background-image: linear-gradient(to right,red,blue);
+                transition: .5s;
+               
+            }
+            &:hover::before {
+               width: 100px;
+               transition: .5s;
+            }
+        }
+        .h6Card {
+
+            i{
+                font-size: x-small;
+            }
+            
+        }
+
+    }

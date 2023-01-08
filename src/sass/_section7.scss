@@ -1,0 +1,40 @@
+.container {
+    .card2{
+        height: 400px;
+    }
+    .imgCard{
+        width: 70%;
+    }
+    .pCard{
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    }
+    .pPrice{
+        font-size: 20px;
+        font-weight: bold;
+    }
+   
+}
+.emptyImg{
+transform: translateX(280px);
+}
+.addButon{
+    border: none;
+    width: 120px;
+    height: 40px;
+    transform: translateY(20px);
+    font-weight: bold;
+    transition: .5s;
+    &:hover{
+        background-color: black;
+        color: #fff;
+        
+    }
+}
+@media (max-width:1200px) {
+    .container {
+        .addButon{
+            transform: translateY(-0px);
+        }
+    }
+}

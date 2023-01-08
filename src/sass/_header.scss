@@ -1,0 +1,167 @@
+header {
+    form {
+        input {
+            position: relative;
+            width: 480px;
+            height: 55px;  
+            margin-left: 85px;
+            border: 3px solid #F5F5F5;
+            border-radius: 10px;
+            &:focus {
+                outline: 0;
+            }
+            
+        }
+        
+        button{
+            position: absolute;
+            background-color: #FFC600;
+            left: 683px;
+            top: 55px;
+            height: 40px;
+            width: 100px;
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            border-radius: 5px;
+            i{
+                font-size: small;
+
+            }
+        }
+    }
+    .box{
+        .fa-phone-volume{
+            margin-left: 70px;
+            margin-top: 45px;
+            transition: .5s ;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                transform: rotateY(-180deg);
+                color: #FFC600;
+            }
+        }
+        .fa-heart{
+            margin-left: 70px;
+            margin-top: 45px;
+            transition: .5s ;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                transform: rotateY(-180deg);
+                color: #FFC600;
+            }
+        }
+        .fa-user{
+            margin-left: 60px;
+            margin-top: 45px;
+            transition: .5s ;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                transform: rotateY(-180deg);
+                color: #FFC600;
+            }
+        }
+        p{
+
+            font-family: monospace;
+        }
+
+        .fa-cart-shopping{
+            margin-left: 60px;
+            margin-top: 45px;
+            transition: .5s ;
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+            &:hover{
+                transform: rotateY(-180deg);
+                color: #FFC600;
+            }
+        }
+        .boxCart{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 20px;
+            height: 18px;
+            background-color: #FFC600;
+            top:30px ;
+            right: 153px;
+            border-radius: 50%;
+            span{
+                font-family:'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: bold;
+            }
+        }
+        
+        
+    }
+   
+  
+}
+
+
+@media (max-width:1200px) {
+    header {
+      form{
+        input{
+            position: absolute;
+            width: 460px;
+           top:  150px;
+           left: -60px;
+           
+        }
+        button{
+            top: 157px;
+            left: 377px;
+        }
+      }
+      .box{
+        .fa-phone-volume{
+            margin-left: 18px;
+            margin-top: 55px;
+            transition: .5s ;
+            font-size: 15px;
+            cursor: pointer;
+            &:hover{
+                transform: rotateY(-180deg);
+                color: #FFC600;
+            }
+        }
+        p{
+           font-size: small;
+            font-family: monospace;
+        }
+        .boxCart{
+           margin-right: -135px;
+          }
+          .cart{
+            position: absolute;
+            top: 70px;
+            font-size: small;
+            font-family: monospace;  
+        }
+      }
+      .fa-heart {
+        position: absolute;
+        right: 130px;
+      }
+      .fa-user {
+        position: absolute;
+        right: 80px;
+      }
+      .fa-cart-shopping{
+        position: absolute;
+        left: 40px;
+      }
+     
+     
+    }
+   
+}
